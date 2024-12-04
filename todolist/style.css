@@ -1,0 +1,72 @@
+body {
+    font-family: arial ,sans-serif;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+    margin: 0;
+}
+.todo{
+    background:#fff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+    text-align: center;
+}
+h1 {
+    margin-bottom: 20px;
+    color: #222;
+}
+.girdi {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+     }
+.gorev {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+}
+.ekle {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+.ekle:hover {
+    background: #0056b3;
+}
+.liste {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.liste li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+.liste li:last-child {
+    border-bottom: none;
+}
+.liste li span {
+    flex: 1;
+    text-align: left;
+}
+.liste li button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background: #dc3545;
+    color: #fff;
+    cursor: pointer;
+     }
+     
