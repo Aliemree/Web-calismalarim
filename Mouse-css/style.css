@@ -1,0 +1,42 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: #0d0d0d; /* Arka plan rengi */
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#hero {
+    z-index: 1;
+    position: relative;
+}
+
+h1 {
+    font-size: 5rem;
+    color: #fff;
+    text-shadow: 0 0 10px #f0f, 0 0 20px #f0f, 0 0 30px #f0f;
+}
+
+a {
+    font-size: 1.2rem;
+    color: #00ffff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff007f;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
